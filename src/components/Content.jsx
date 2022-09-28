@@ -14,10 +14,10 @@ const Content = () => {
             <div
                 className={'flex flex-col justify-center items-center  bg-no-repeat bg-left py-28 p-8'}>
                 <div className={''}>
-                    <h1 className="text-8xl font-extrabold animate-pulse text-transparent bg-clip-text bg-gradient-to-b from-[#800080] to-[#ffc0cb] text-center">
+                    <h1 className="text-7xl lg:text-8xl font-extrabold animate-pulse text-transparent bg-clip-text bg-gradient-to-b from-[#800080] to-[#ffc0cb] text-center">
                         Welcome
                     </h1>
-                    <h1 className="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-[#B2FEFA] to-[#0ED2F7] text-center">
+                    <h1 className="text-4xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-[#B2FEFA] to-[#0ED2F7] text-center">
                         I'm Kiattikhun Wantamard
                     </h1>
                 </div>
@@ -31,7 +31,7 @@ const Content = () => {
                         </span>
                      </span>
                 </div>
-                <div className={''}>
+                <div className={'mt-5'}>
                     <a href={resume} target="_blank">
                         <button type="button"
 
@@ -39,6 +39,28 @@ const Content = () => {
                             Download Resume
                         </button>
                     </a>
+
+                </div>
+                <div
+                    className={'grid place-items-center grid-cols-1 lg:grid-cols-2 mt-[12rem] md:mt-[40rem] w-full lg:w-2/4'}>
+                    <div className={''}>
+                        <img src={devpic} alt={'dev-pic'}/>
+                    </div>
+                    <div className={' place-items-center p-5'}>
+                        <div>
+                            <p className={'text-center  text-5xl md:text-7xl  text-transparent font-extrabold bg-clip-text bg-gradient-to-b from-[#fc4a1a] to-[#f7b733]'}>About
+                                me</p>
+
+                        </div>
+                        <div id={'aboutSection'}>
+                            <p className={' text-center text-lg font-medium mt-5 md:mt-12 text-white '}>
+                                Hello my name is Kiattikhun Wantamard, I'm interested in a fullstack developer position
+                                or a related position.I graduated in 2022.
+                                I'm eager to learn everything.
+                            </p>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
