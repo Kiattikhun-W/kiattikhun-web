@@ -1,9 +1,11 @@
 import Navbar from "./Navbar.jsx";
 import devpic from "../assets/dev-male.png"
 import resume from "../assets/resume.pdf"
-import {saveAs} from "file-saver"
-import fileDownload from 'js-file-download';
 
+import html5logo from "../assets/html-5.png"
+import reactlogo from "../assets/react.png"
+import jslogo from "../assets/js.png"
+import express from "../assets/express.png"
 
 const Content = () => {
 
@@ -43,7 +45,7 @@ const Content = () => {
                 </div>
                 <div
                     className={'grid place-items-center grid-cols-1 lg:grid-cols-2 mt-[12rem] md:mt-[40rem] w-full lg:w-2/4'}>
-                    <div className={''}>
+                    <div className={''} id={'aboutSection'}>
                         <img src={devpic} alt={'dev-pic'}/>
                     </div>
                     <div className={' place-items-center p-5'}>
@@ -52,8 +54,8 @@ const Content = () => {
                                 me</p>
 
                         </div>
-                        <div id={'aboutSection'}>
-                            <p className={' text-center text-lg font-medium mt-5 md:mt-12 text-white '}>
+                        <div>
+                            <p className={' text-center text-xl  font-medium mt-5 md:mt-12 text-white '}>
                                 Hello my name is Kiattikhun Wantamard, I'm interested in a fullstack developer position
                                 or a related position.I graduated in 2022.
                                 I'm eager to learn everything.
@@ -61,6 +63,35 @@ const Content = () => {
                         </div>
                     </div>
 
+                </div>
+
+                {/*    Skills*/}
+
+                <div>
+                    <div id={'skillsSection'}>
+                        <h1 className={'text-center  text-5xl md:text-7xl  text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-[#11998e] to-[#38ef7d] mt-[12rem] md:mt-[40rem]'}>
+                            Skills
+                        </h1>
+                    </div>
+                    <div className={'mt-24 grid grid-cols-1 md:grid-cols-4 gap-16 w2/4 '}>
+                        <div className={'text-white text-center'}>
+                            <img src={html5logo} alt={'html5logo'} width={96}/>
+                            <span className={'text-white font-extrabold   text-xl'}> HTML 5 </span>
+                        </div>
+                        <div className={'text-white text-center'}>
+                            <img src={reactlogo} alt={'html5logo'} width={96}/>
+                            <span className={'text-white font-extrabold   text-xl '}> React </span>
+                        </div>
+                        <div className={'text-white text-center'}>
+                            <img src={express} alt={'express'} width={96}/>
+                            <span className={'text-white font-extrabold  text-xl  '}> express </span>
+                        </div>
+                        <div className={'text-white text-center'}>
+                            <img src={jslogo} alt={'html5logo'} width={96}/>
+                            <span className={'text-white font-extrabold text-xl   '}> javascript </span>
+                        </div>
+
+                    </div>
 
                 </div>
             </div>
