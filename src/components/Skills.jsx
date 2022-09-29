@@ -44,7 +44,7 @@ const Skills = () => {
         <div>
             <div id={'skillsSection'}>
 
-                <h1 className={'text-center  text-5xl md:text-7xl  text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-[#11998e] to-[#38ef7d] mt-[12rem] md:mt-[22rem]'}>
+                <h1 className={'text-center  text-5xl md:text-7xl  text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-[#7F00FF] to-[#E100FF] mt-[12rem] md:mt-[22rem]'}>
                     Skills
                 </h1>
             </div>

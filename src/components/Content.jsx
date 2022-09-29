@@ -11,6 +11,7 @@ import About from "./About.jsx";
 import Header from "./Header.jsx";
 import Education from "./Education.jsx";
 import Projects from "./Projects.jsx";
+import Experience from "./Experience.jsx";
 
 const Content = () => {
 
@@ -26,6 +27,7 @@ const Content = () => {
                 <Education/>
                 <Skills/>
                 <Projects/>
+                <Experience/>
             </div>
 
 

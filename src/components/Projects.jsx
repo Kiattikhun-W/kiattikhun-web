@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <div className={''}>
             <div id={'projectSection'}>
-                <h1 className={' text-center text-5xl md:text-7xl  text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-[#b20a2c] to-[#fffbd5] mt-[12rem] md:mt-[22rem]'}>
+                <h1 className={'underline underline-offset-8  decoration-yellow-500 text-center text-5xl md:text-7xl  text-white font-extrabold mt-[12rem] md:mt-[22rem]'}>
                     PROJECT
                 </h1>
             </div>
@@ -16,7 +16,7 @@ const Projects = () => {
                     <img src={projectImg} alt={''} width={800}/>
                 </figure>
                 <div className={'  '}>
-                    <h1 className={'text-4xl text-white underline text-center lg:text-left  underline-offset-8 decoration-orange-500 py-3'}>The
+                    <h1 className={'text-4xl text-white  text-center lg:text-left  underline underline-offset-8  decoration-orange-500 py-3'}>The
                         HEAVEN 🏠</h1>
                     <p className={'text-white font-thin'}> Web application to manage condo or dormitory residents,
                         developed with
@@ -31,23 +31,27 @@ const Projects = () => {
                             Line Official Account (For User)
                         </li>
                         <li>
-                            Admin Dashboard (For Admin)
+                            Admin Website (For Admin)
                         </li>
                     </p>
                     <p className={'text-gray-100  font-thin'}>
                         *You can visit the project in the video on my youtube channel.
                     </p>
-                    <div className={'mt-2'}>
-                        <a href={'https://youtu.be/09oyn5eEbgk'} target={'_blank'}>
-                            <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full">
-                                Youtube 🎥
+                    <div className={'flex flex-row justify-center lg:justify-start'}>
+                        <div className={'mt-2 '}>
+                            <a href={'https://youtu.be/09oyn5eEbgk'} target={'_blank'}>
+                                <button
+                                    className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full">
+                                    Youtube ▶
+                                </button>
+                            </a>
+                            <button
+                                className="mx-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                                Gallery 🌷
                             </button>
-                        </a>
-                        <button
-                            className="mx-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                            Gallery 🌷
-                        </button>
+                        </div>
                     </div>
+
                 </div>
 
 

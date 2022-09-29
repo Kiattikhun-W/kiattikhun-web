@@ -7,7 +7,7 @@ const About = () => {
             className={'grid place-items-center grid-cols-1 lg:grid-cols-2 mt-[12rem] md:mt-[22rem] w-full lg:w-2/4'}>
             <div className={''} id={'aboutSection'}>
                 <Tilt
-                   
+
                 >
                     <img src={devpic} alt={'dev-pic'}/>
 
@@ -15,7 +15,7 @@ const About = () => {
             </div>
             <div className={' place-items-center p-5'}>
                 <div>
-                    <p className={'text-center  text-5xl md:text-7xl  text-transparent font-extrabold bg-clip-text bg-gradient-to-b from-[#fc4a1a] to-[#f7b733]'}>About
+                    <p className={'text-center  text-5xl md:text-7xl  text-transparent font-extrabold bg-clip-text bg-gradient-to-b from-[#7F00FF] to-[#E100FF]'}>About
                         me</p>
 
                 </div>
