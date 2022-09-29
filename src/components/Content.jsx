@@ -9,6 +9,8 @@ import express from "../assets/express.png"
 import Skills from "./Skills.jsx";
 import About from "./About.jsx";
 import Header from "./Header.jsx";
+import Education from "./Education.jsx";
+import Projects from "./Projects.jsx";
 
 const Content = () => {
 
@@ -18,10 +20,12 @@ const Content = () => {
             <Navbar/>
 
             <div
-                className={'flex flex-col justify-center items-center  bg-no-repeat bg-left py-28 p-8'}>
+                className={'flex flex-col justify-center items-center  bg-no-repeat bg-left py-28 p-8 '}>
                 <Header/>
                 <About/>
+                <Education/>
                 <Skills/>
+                <Projects/>
             </div>
 
 

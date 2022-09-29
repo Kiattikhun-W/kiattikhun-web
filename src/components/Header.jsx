@@ -1,4 +1,5 @@
 import resume from "../assets/resume.pdf";
+import Tilt from 'react-parallax-tilt';
 
 const Header = () => {
     return (
