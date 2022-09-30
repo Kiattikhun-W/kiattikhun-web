@@ -1,5 +1,5 @@
 const Navbar = () => {
-    const navId = ['About', 'Skills', 'Project', 'Experience']
+    const navId = ['About', 'Skills', 'Project', 'Experience', 'Contact']
     const handleNav = (name) => {
         let sectionId = `${name.toLowerCase()}Section`
         document.getElementById(sectionId).scrollIntoView({behavior: "smooth"})

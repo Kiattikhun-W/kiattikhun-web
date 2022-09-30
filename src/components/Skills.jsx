@@ -50,6 +50,9 @@ const Skills = () => {
             </div>
 
             <div
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-delay="400"
                 className={'mt-10 md:mt-24 grid grid-cols-4   gap-10 md:gap-16  whitespace-pre-line '}>
                 {skills.map(item => (
                     <div key={item.name}

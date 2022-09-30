@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div
             className={'grid place-items-center grid-cols-1 lg:grid-cols-2 mt-[12rem] md:mt-[22rem] w-full lg:w-2/4'}>
-            <div className={''} id={'aboutSection'}>
+            <div data-aos="fade-right" data-aos-delay="50" className={''} id={'aboutSection'}>
                 <Tilt
 
                 >

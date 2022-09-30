@@ -14,7 +14,9 @@ const Experience = () => {
 
                 <div
                     id={'experienceSection'}
-                    className={'mt-9 bg-gradient-to-r from-[#7F00FF] to-[#E100FF] border border-gray-700 p-4 md:p-24 rounded'}>
+                    data-aos="flip-left"
+                    data-aos-delay={100}
+                    className={'mt-9 bg-slate-900 border border-gray-700 p-4 md:p-24 rounded'}>
                     <div className={'flex flex-col justify-center items-center'}>
                         <img src={revelsoft}
                              className={'inline '}

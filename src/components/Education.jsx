@@ -12,7 +12,7 @@ const Education = () => {
             <Tilt
             >
                 <div
-                    className={'mt-9 bg-gradient-to-l from-[#ad5389] to-[#3c1053] border border-gray-700 p-4 md:p-24 rounded'}>
+                    className={'mt-9 bg-slate-900  border border-gray-700 p-4 md:p-24 rounded'}>
                     <h1 className={'text-xl md:text-2xl text-white text-center'}>
                         Bachelor's Degree in Information Science (Enterprise
                         Software) <span className={'text-white font-bold'}>GPAX 3.74</span>
