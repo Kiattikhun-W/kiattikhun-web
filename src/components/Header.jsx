@@ -1,10 +1,9 @@
 import resume from "../assets/resume.pdf";
-import Tilt from 'react-parallax-tilt';
 
 const Header = () => {
     return (
         <div>
-            <div>
+            <div id={'homeSection'}>
                 <h1 className="text-7xl lg:text-8xl font-extrabold animate-pulse text-transparent bg-clip-text bg-gradient-to-b from-[#800080] to-[#ffc0cb] text-center">
                     Welcome
                 </h1>

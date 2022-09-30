@@ -45,10 +45,10 @@ const Projects = () => {
                                     Youtube ▶
                                 </button>
                             </a>
-                            <button
-                                className="mx-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                                Gallery 🌷
-                            </button>
+                            {/*<button*/}
+                            {/*    className="mx-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">*/}
+                            {/*    Gallery 🌷*/}
+                            {/*</button>*/}
                         </div>
                     </div>
 

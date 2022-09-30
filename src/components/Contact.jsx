@@ -1,5 +1,3 @@
-import revelsoft from "../assets/revelsoft.png";
-
 const Contact = () => {
     return (
         <div>
@@ -21,6 +19,7 @@ const Contact = () => {
                         </button>
                         <p className={'pt-3 text-white font-bold text-center'}>
                             Phone : +669-8881-6208
+
                         </p>
                     </div>
                 </div>
