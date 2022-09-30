@@ -16,7 +16,7 @@ function App() {
         <div className="App">
             <Content/>
             <FaArrowCircleUp
-                className={'text-5xl font-extrabold hover:cursor-pointer text-blue-600'}
+                className={'text-5xl font-extrabold hover:cursor-pointer text-purple-700'}
                 onClick={() => {
                     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
                 }}

@@ -1,4 +1,4 @@
-import resume from "../assets/resume.pdf";
+import resume from "../assets/kiattikhun-resume.pdf";
 
 const Header = () => {
     return (
