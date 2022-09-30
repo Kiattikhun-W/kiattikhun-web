@@ -13,7 +13,7 @@ const Experience = () => {
             >
 
                 <div
-                    id={'experienceSection'}
+                    id={'expSection'}
                     data-aos="flip-left"
                     data-aos-delay={100}
                     className={'mt-9 bg-slate-900 border border-gray-700 p-4 md:p-24 rounded'}>
