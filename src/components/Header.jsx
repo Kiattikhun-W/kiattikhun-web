@@ -14,10 +14,10 @@ const Header = () => {
             <div className={'mt-2 text-center'}>
                      <span className="relative">
                         <span
-                            className="block absolute top-4 bottom-0 left-[60%] -skew-y-3 right-0 rounded-full bg-pink-500"
+                            className="block absolute top-10 lg:top-4 bottom-0 lg:left-[50%] left-[60%] -skew-y-3 right-0 rounded-full bg-pink-500"
                             aria-hidden="true"></span>
                         <span className="relative text-white text-xl md:text-3xl  text-white">
-                            Interested in Fullstack Developer
+                           ถ้าไม่นับภาษาที่ผมไม่เคยเขียน ภาษาไหนก็ผ่านมือผมมาหมดแล้ว
                         </span>
                      </span>
             </div>
