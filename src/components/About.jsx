@@ -21,7 +21,7 @@ const About = () => {
                 </div>
                 <div>
                     <p className={' text-xl font-medium mt-5 md:mt-12 text-white '}>
-                        👋 Hello my name is Kiattikhun Wantamard, you can call me toey (bai-toey).I'm interested in a
+                        👋 Hello my name is Kiadtikhun Wanthamat, you can call me toey (bai-toey).I'm interested in a
                         fullstack developer position or a related position.I graduated in 2022.
                         I'm eager to learn everything.
                     </p>
