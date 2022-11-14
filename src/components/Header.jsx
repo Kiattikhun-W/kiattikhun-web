@@ -8,7 +8,7 @@ const Header = () => {
                     Welcome
                 </h1>
                 <h1 className="text-4xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-[#B2FEFA] to-[#0ED2F7] text-center">
-                    I'm Kiattikhun Wantamard
+                    I'm Kiadtikhun Wanthamat
                 </h1>
             </div>
             {/*<div className={'mt-2 text-center'}>*/}
