@@ -60,11 +60,10 @@ const Projects = () => {
                     <img src={ohQuizImg} alt={''} width={800}/>
                 </figure>
                 <div className={'  '}>
-                    <h1 className={'text-4xl text-white  text-center lg:text-left  underline underline-offset-8  decoration-orange-500 py-3'}>Oh! Quiz</h1>
+                    <h1 className={'text-4xl text-white  text-center lg:text-left  underline underline-offset-8  decoration-orange-500 py-3'}>Quiz App</h1>
                     <p className={'text-white font-thin'}> A full stack project i do when I have free time.
-                         Zup! quiz is a web application where you can choose the test you want to do. And your score will be displayed when you complete it.
-
-
+                         a web application where you can choose the test you want to do. And your score will be displayed when you complete it.
+                         for learning React Query, TypeORM
                     </p>
 
                     <p className={'text-white mt-3'}> Tech Stack.

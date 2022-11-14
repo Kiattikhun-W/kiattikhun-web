@@ -15,7 +15,7 @@ const Education = () => {
                     className={'mt-9 bg-slate-900  border border-gray-700 p-4 md:p-24 rounded'}>
                     <h1 className={'text-xl md:text-2xl text-white text-center'}>
                         Bachelor's Degree in Information Science (Enterprise
-                        Software) <span className={'text-white font-bold'}>GPAX 3.74</span>
+                        Software) <span className={'text-white'}>GPAX 3.74</span>
                     </h1>
                     <h2 className={'text-lg font-extralight text-white text-center'}>
                         Suranaree University Of Technology (2018-2022)
